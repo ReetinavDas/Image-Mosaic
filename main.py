@@ -7,7 +7,7 @@ from PIL import Image
 def main():
     colors = calc_tiles()
 
-    input_photo = "input_photos/mountain.jpg"
+    input_photo = "input_photos/stars.jpg"
 
     starting = Image.open(input_photo)
 
